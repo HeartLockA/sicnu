@@ -15,7 +15,7 @@
          $data = [];
      }
      extract($data);
-     if($users[$username] && strcmp($users[$username], $password) == 0) {
+     if($users[$username]) {
          $user = $username;
      }
 
